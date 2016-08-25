@@ -1,0 +1,9 @@
+<h1>Vista alumnos</h1>
+<% for(var i=0; i < alumnos.length; i++) { %>
+   <tr>
+     <td><%= alumnos[i].matricula %></td>
+     <td><%= alumnos[i].nombre %></td>
+     <td><%= alumnos[i].materia %></td>
+     <td><%= alumnos[i].calificacion %></td>
+   </tr>
+<% } %>
